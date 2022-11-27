@@ -13,7 +13,7 @@ plot_bar(peces)
 plot_bar(peces, by="especie")
 # Histogramas de variables categóricas
 plot_histogram(peces)
-" QQ Plot de variables cuantitativas
+# QQ Plot de variables cuantitativas
 qqdata<-peces[,c("lint","wte")]
 plot_qq(qqdata)
 # Correlograma para variable cuantitativas
